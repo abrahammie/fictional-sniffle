@@ -1,6 +1,6 @@
 import socket
 
-HOST, PORT = '', 8080
+HOST, PORT = '', 1981
 
 listen_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 listen_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
